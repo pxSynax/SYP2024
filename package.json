@@ -8,10 +8,11 @@
         "bootstrap",
         "bootstrap5"
     ],
-	"scripts":{
-	"dev": "gulp scss",
-	"runn": "gulp"
-	},
+    "scripts": {
+        "dev": "gulp scss",
+        "runn": "gulp",
+		"test": "jest"
+    },
     "homepage": "https://appseed.us",
     "bugs": {
         "url": "https://github.com/app-generator/design-core/issues"
@@ -26,7 +27,6 @@
         "bootstrap": "^5.0.2"
     },
     "devDependencies": {
-        "sass": "^1.47.0",
         "browser-sync": "^2.27.4",
         "del": "^6.0.0",
         "gulp": "^4.0.2",
@@ -43,6 +43,8 @@
         "gulp-sourcemaps": "^3.0.0",
         "gulp-uglify": "^3.0.2",
         "gulp-wait": "^0.0.2",
-        "merge-stream": "^2.0.0"
+        "jest": "^29.7.0",
+        "merge-stream": "^2.0.0",
+        "sass": "^1.47.0"
     }
 }
