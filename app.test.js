@@ -1,3 +1,4 @@
+// app.test.js
 describe('Website', () => {
     it('should load the homepage and contain the correct title', async () => {
         const homepage = 'http://localhost:3000';
@@ -8,5 +9,3 @@ describe('Website', () => {
         expect(data).toContain(pageTitle);
     });
 });
-
-
