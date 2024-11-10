@@ -29,6 +29,6 @@ jobs:
       # Run server and tests
       - name: Run tests with server
         run: |
-          nohup npm run runn &  # Start server in the background
+          nohup npm start &  # Start server in the background
           sleep 5               # Wait for server to start
           npm test              # Run tests
