@@ -28,7 +28,7 @@ jobs:
 
       - name: Run tests with server
         run: |
-          nohup npm run runn &  # Start server in the background
+          nohup npm start &  # Start server in the background
           SERVER_PID=$!         # Capture the server process ID
 
           # Health check loop to wait until the server is ready
