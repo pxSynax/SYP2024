@@ -10,7 +10,7 @@
     ],
     "scripts": {
         "dev": "gulp scss",
-        "runn": "gulp",
+        "start": "gulp",
 		"test": "jest"
     },
     "homepage": "https://appseed.us",
