@@ -9,3 +9,4 @@ describe('Website', () => {
         expect(data).toContain(pageTitle);
     });
 });
+ 
